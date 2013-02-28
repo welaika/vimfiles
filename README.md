@@ -1,4 +1,4 @@
 vimfiles
 ========
 
-weLaika Vim disitribution: Keep It Simple Stupid. 
+weLaika Vim distribution: Keep It Simple Stupid.
