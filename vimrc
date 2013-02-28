@@ -178,6 +178,9 @@ nnoremap <Leader>gw  :Gwrite<CR>
 nnoremap <Leader>gr  :Gread<CR>
 
 "" Plugins mapping
+nnoremap <Leader>f :CtrlP<CR>
+nnoremap <Leader>F :CtrlPClearAllCaches\|:CtrlP<CR>
+nnoremap <Leader>b :CtrlPBuffer<CR>
 nnoremap <silent> <S-left> <Esc>:bp<CR>
 nnoremap <silent> <S-right> <Esc>:bn<CR>
 nnoremap <Leader>n :NERDTreeToggle<CR>
