@@ -15,25 +15,25 @@ Prerequisites: ruby, git.
    `cd ~/.vim && rake`
 
 This will install "~/.vimrc" symlink that point to
-the config inside the ".vim" directory.
+the config inside the "~/.vim" directory.
 
 ## Features:
 
-* General:
+* **General**:
   - use pathogen as plugin environment
   - sane defaults: nocompatible mode, utf8, advanced syntax highlighting
-* User Interface:
+* **User Interface**:
   - incremental, case-insensitive search
   - wildmenu goodies
   - mouse enabled
-* Spacing:
+* **Spacing**:
   - 2 spaces, no tabs, uses bash-alike autocompletion for files and directories
   - tabs are displayed as `▸ `, end of lines as `¬`, trailing spaces as `.`
-* Conventions:
+* **Conventions**:
   - follow style conventions for ruby, python and makefiles
   - reopen files in the same spot where you closed them
   - 'Leader' character mapped to "," (comma)
-* Mappings:
+* **Mappings**:
   - pressing enter in normal mode resets search highlighting
   - %% is expanded to the current directory in command mode
   - `,e` edits a file in the same directory of the current
@@ -54,6 +54,7 @@ the config inside the ".vim" directory.
 * supertab
 * vim-coffee-script
 * vim-commentary
+* vim-eunuch
 * vim-fugitive
 * vim-haml
 * vim-javascript
