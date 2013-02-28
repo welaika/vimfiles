@@ -17,7 +17,7 @@ set pastetoggle=<F12>             " for pasting code into Vim
 
 "" Style
 set background=dark
-color vividchalk
+color elflord
 set number                        " line numbers are cool
 set ruler                         " show the cursor position all the time
 set nocursorline                  " disable cursor line
