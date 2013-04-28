@@ -14,6 +14,9 @@ syntax enable                     " enable syntax highlighting...
 filetype plugin indent on         " depending on filetypes...
 runtime macros/matchit.vim        " with advanced matching capabilities
 set pastetoggle=<F12>             " for pasting code into Vim
+set timeout timeoutlen=1000       " fix slight delay after pressing ESC then O
+set ttimeoutlen=100       
+set autoread                      " auto load files if vim detects change
 
 "" Style
 set background=dark
@@ -163,6 +166,7 @@ nnoremap <Leader>R :%s:::gc<Left><Left><Left><Left>
 " remove whitespaces and windows EOL
 command! KillWhitespace :normal :%s/\s\+$//e<CR><C-O><CR>
 command! KillControlM :normal :%s/<C-V><C-M>//e<CR><C-O><CR>
+nnoremap <Leader>W :KillWhitespace<CR>
 
 " easier navigation between split windows
 nnoremap <C-J> <C-W>j
